@@ -97,6 +97,30 @@ $
 - wait4 (man 2 wait4)
 - write (man 2 write)
 
+### Compilation
+---
+
+Your shell will be compiled this way:
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+
+```
+
+### Testing
+---
+Your shell should work like this in interactive mode:
+
+```
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+
+```
+
+
 
 
 
