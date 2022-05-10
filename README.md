@@ -19,9 +19,9 @@
 * Authors
 
 ---
-Requirements
+### Requirements
 ---
-General
+#### General
 
 - Allowed editors: vi, vim, emacs
 - All your files will be compiled on Ubuntu 14.04 LTS
@@ -119,6 +119,61 @@ hsh main.c shell.c
 $
 
 ```
+
+But also in non-interactive mode:
+
+```
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+```
+
+---
+
+### Installation
+---
+
+In order to use this Simple Shell function you need to clone this repository to your local machine
+
+```
+$ git clone https://github.com/omara256/simple_shell.git
+
+```
+
+### After cloning go to the simple_shell folder
+
+```
+
+$ cd simple_shell
+
+```
+
+### You can compile it with your C source code
+
+```
+
+$ gcc *.c hsh
+
+```
+---
+
+### Authors
+---
+
+[Omara Augustine]
+[Stephen Azeh]
+
+
+
+
 
 
 
