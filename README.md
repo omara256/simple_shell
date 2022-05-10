@@ -50,10 +50,6 @@ $
 
 ```
 
-```
-
-```
-
 Same error with your program hsh:
 
 ```
