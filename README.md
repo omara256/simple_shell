@@ -168,10 +168,6 @@ $ gcc *.c hsh
 ### Authors
 ---
 
-* [Omara Augustine] [@omara256]
-
-* [Stephen Azeh]
-
 
 
 
