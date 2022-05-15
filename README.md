@@ -168,6 +168,9 @@ $ gcc *.c hsh
 ### Authors
 ---
 
+- Omara Augustine
+- Stephen Azeh
+
 
 
 
